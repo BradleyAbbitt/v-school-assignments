@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Colossal Adventure RPG</title>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+            <link rel = "stylesheet" href = "style.css">
+        </head>
+
+        <body>
+            <div id = "menu-return"><a href = "menu.html">Main Menu</a></div>
+            <div class = "controls">
+                <div>Press "W" to Walk Forward</div>
+                <div>Press "P" to Open Inventory</div>
+                </div>
+
+            <div id = "popUp1" style = "display: none;">
+                <div>You Are Walking</div>
+                <div>You have not encountered anyone or anything.....</div>
+                <div>Yet</div>
+                <button id = "continue">Continue</button>
+            </div>
+            
+            <div id = "popUp2" style = "display: none;">
+                <div>A Goblin has Appeared!</div>
+                <img id = "goblin-picture" src = "https://spikeybits.com/wp-content/uploads/2016/09/2016-09-15_0852.jpg">
+                <button class = "fight" id = "fight1">Fight</button>
+                <button class = "run" id = "run1">Run</button>
+            </div>
+        
+            <div id = "popUp3" style = "display: none;">
+                <div>A Bandit has Appeared!</div>
+                <img id = "bandit-picture" src = "https://preview.redd.it/r0e9qwvm3ij81.jpg?auto=webp&s=4d27174a0e71a7e2207a9aa10bf8eb404cf4ae2e">
+                <button class = "fight" id = "fight2">Fight</button>
+                <button class = "run" id = "run2">Run</button>
+            </div>
+
+            <div id = "popUp4" style = "display: none;">
+                <div>A Giant Has Appeared!</div>
+                <img id = "giant-picture" src = "https://i.pinimg.com/originals/94/7b/46/947b46484d78c1065ac5696d70f15629.jpg">
+                <button class = "fight" id = "fight3">Fight</button>
+                <button class = "run" id = "run3">Run</button>
+            </div>
+
+            <div id = "deathPopUp" style = "display: none;">
+                <div>You Died.</div>
+                <button id = "deathMenu"><a href = "menu.html">Return to Menu</a></button>
+            </div>
+
+            <div id = "inventory" style = "display: none;">
+                <div>Inventory:</div>
+                <div id = "goldInventory"></div>
+                <div id = "weaponFragments"></div>
+                <div id = "armorFragments"></div>
+                <div id = "playerHealth"></div>
+                <div id = "mileCounter"></div>
+                <button id = "inventoryClose">Close</button>
+            </div>
+
+            <!-- <div id = "runDiv" style = "display: none">
+                <button id = "runButton">Run</button>
+            </div> -->
+
+            <script src = "index.js"></script>
+        </body>
+    </html>

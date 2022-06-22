@@ -1,0 +1,423 @@
+header {
+    font-size: 90px;
+    color: rgb(159, 57, 57);
+    font-family: fantasy;
+    text-align: center;
+    margin: 40px
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: fantasy;
+    font-size: 50px;
+    list-style: none;
+    
+}
+
+li {
+    margin: 30px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(159, 57, 57);
+    margin: auto;
+    display: block;
+}
+
+li a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/43/4d/38/434d38f1b3c9dcbea365b0a5d202dbfc.jpg");
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#credits {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 50%);
+    text-align: center;
+    color: rgb(159, 57, 57);
+    font-size: 15px;
+    font-family: fantasy;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+#google {
+    font-size: 30px;
+    color: white;
+    font-family: fantasy;
+    margin: 15px;
+    text-align: center;
+}
+
+#returnToMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: fantasy;
+    border-radius: 10px;
+}
+
+#returnToMenu a {
+    text-decoration: none;
+    color:rgb(159, 57, 57);
+}
+
+#returnToMenu a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(159, 57, 57);
+    margin: auto;
+    display: block;
+}
+
+#returnToMenu a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+#menu-return {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 20px 50px 20px;
+    font-size: 25px;
+    font-family: fantasy;
+    color: rgb(159, 57, 57);
+}
+
+#menu-return a {
+    text-decoration: none;
+    color:rgb(159, 57, 57);
+}
+
+#menu-return a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(159, 57, 57);
+    margin: auto;
+    display: block;
+}
+
+#menu-return a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+#opening {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px 50px 150px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(159, 57, 57);
+    background-color: rgb(255, 255, 255, 50%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#opening :nth-child(1) {
+    padding-bottom: 50px;
+}
+
+#opening :nth-child(4) {
+    padding-top: 50px;
+    font-family: 'Creepster', cursive;
+    color: black;
+}
+
+form {
+    text-align: center;
+    color: rgb(159, 57, 57);
+    font-size: 45px;
+    font-family: fantasy;
+    margin: 5px 150px 5px 150px;
+
+}
+
+.resizedTextbox {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0, 70%);
+    color: rgb(159, 57, 57);
+    text-align: center;
+    border: 1px solid black;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 620px 10px 620px;
+}
+
+#start a {
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(159, 57, 57);
+    font-family: fantasy;
+}
+
+#start a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(159, 57, 57);
+    margin: auto;
+    display: block;
+}
+
+#start a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    color:rgb(159, 57, 57);
+    margin-top: 35px;
+    font-family: fantasy;
+}
+
+.controls :nth-child(1) {
+    background-color: rgb(0, 0, 0, 60%);
+    padding: 10px;
+    color: rgb(89, 82, 82);
+}
+
+.controls :nth-child(2) {
+    background-color: rgb(0, 0, 0, 60%);
+    padding: 10px;
+    color: rgb(89, 82, 82);
+}
+#popUp1 {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 60%);
+    margin: 10px 340px 10px 340px;
+    height: 400px;
+    color:rgb(159, 57, 57);
+    font-family: fantasy;
+    border-radius: 20px;
+}
+
+#popUp1 :nth-child(1) {
+    font-size: 40px;
+}
+
+#popUp1 :nth-child(2) {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+#popUp1 :nth-child(3) {
+    font-size: 65px;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Creepster', cursive;
+}
+
+#continue {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    background-color: rgb(89, 82, 82, 70%);
+    color:rgb(159, 57, 57);
+    padding: 5px 15px 5px 15px;
+    margin: 10px 65px 0px 65px;
+}
+
+#popUp2 {
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 60%);
+    margin: 10px 340px 0px 340px;
+    height: 400px;
+    color:rgb(159, 57, 57);
+    font-family: fantasy;
+    border-radius: 20px;
+    font-size: 40px;
+    align-items: center;
+}
+
+#goblin-picture {
+    display: block;
+    height: 200px;
+    width: 270px;
+    margin: 10px;
+}
+
+.fight {
+    font-size: 30px;
+    background-color:rgb(89, 82, 82,70%);
+    padding: 3px 10px 3px 10px;
+    margin:10px;
+    font-family: fantasy;
+}
+
+.run {
+    font-size: 30px;
+    background-color:rgb(89, 82, 82,70%);
+    color:rgb(159, 57, 57);
+    border: 1px solid rgb(159, 57, 57);
+    padding: 3px 17px 3px 17px;
+    font-family: fantasy;
+}
+
+#popUp3 {
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 60%);
+    margin: 10px 340px 0px 340px;
+    height: 450px;
+    color:rgb(159, 57, 57);
+    font-family: fantasy;
+    border-radius: 20px;
+    font-size: 40px;
+    align-items: center;
+}
+
+#bandit-picture {
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+#popUp4 {
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 60%);
+    margin: 10px 340px 0px 340px;
+    height: 450px;
+    color:rgb(159, 57, 57);
+    font-family: fantasy;
+    border-radius: 20px;
+    font-size: 40px;
+    align-items: center;
+}
+
+#giant-picture {
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+#deathPopUp {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 60%);
+    margin: 100px 340px 0px 340px;
+    height: 175px;
+    color:rgb(159, 57, 57);
+    font-family: fantasy;
+    border-radius: 20px;
+    font-size: 50px;
+    align-items: center;
+}
+
+#deathMenu {
+    font-family: fantasy;
+    background-color: rgb(89, 82, 82, 70%);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0, 70%);
+}
+
+#deathMenu a {
+    text-decoration: none;
+    color:black;
+}
+
+#inventory {
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 70%);
+    margin: 10px 340px 0px 340px;
+    height: 500px;
+    color:rgb(89, 82, 82);
+    font-family: fantasy;
+    border-radius: 20px;
+    font-size: 40px;
+    align-items: center;
+}
+
+#inventory :nth-child(1) {
+    color:rgb(159, 57, 57);
+    font-size: 65px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#inventory :nth-child(2) {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+#inventory :nth-child(5) {
+    color:rgb(159, 57, 57);
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#inventory :nth-child(6) {
+    margin-top: 15px;
+    font-family: 'Creepster', cursive;
+}
+
+#inventoryClose {
+    font-family: fantasy;
+    font-size: 25px;
+    background-color: rgb(89, 82, 82, 70%);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0, 70%);
+}
+
+#runButton {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    background-color: rgb(89, 82, 82, 70%);
+    color:rgb(159, 57, 57);
+    padding: 5px 15px 5px 15px;
+}
+
+#runDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+}

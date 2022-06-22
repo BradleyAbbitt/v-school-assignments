@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Colossal Adventure RPG</title>
+
+            <link rel = "stylesheet" href = "style.css">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        
+        </head>
+
+        <body>
+            
+        <div id = "menu-return"><a href = "menu.html">Main Menu</a></div>
+        <div id = "opening">
+            <div>Welcome, Adventurer!</div>
+            <div>Ahead lies a dark, dangerous forest, filled with savage creatures.</div>
+            <div>No one truely knows what treasure awaits inside the forest, only rumors and legends, 
+                as those who enter are rarely heard from again.</div> 
+            <div>Is the risk worth the reward?</div>
+        </div>
+        <form>
+            <input id = "username" type = "text" placeholder = "Enter Adventurer Name" class = "resizedTextbox" required/>
+        </form>
+
+        <div id = "start"><a href = "game.html">Start</a></div>
+        <script>
+            document.getElementById("start").addEventListener("click", function (e) {
+
+                let username = document.getElementById("username")
+    
+                    if (username.value.length >= 3) {
+                        alert("Your Adventurer Name is " + username.value)
+                    } else {
+                        e.preventDefault()
+                        alert("Name must be at least 3 Characters")
+                    }
+                    let usernameString = username.value
+                    localStorage.setItem("usernameString", usernameString)
+            })
+        </script>
+        
+
+        <script src = "index.js"></script>
+        </body>
+    </html>

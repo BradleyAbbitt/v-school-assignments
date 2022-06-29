@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mario Pest Control</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+
+        <form id = marioForm>
+            <div id = "creatures">
+                <header>Mario Pest Control</header>
+            
+                <div id = "goomba"><img src = "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG">
+                    <div class = "text">Goomba</div>
+                    <div class = "text">5 Coins</div>
+                    <div class = "number-defeated">Number Defeated:</div>
+                    <input type = "number" name = "goombaNumber" class = "input-data">
+                </div>
+            
+                <div id = "bob-ombs"><img src = "https://mario.wiki.gallery/images/thumb/9/9e/Bobomb_-_MarioPartyStarRush.png/1200px-Bobomb_-_MarioPartyStarRush.png">
+                    <div class = "text">Bob-Omb</div>
+                    <div class = "text">7 Coins</div>
+                    <div class = "number-defeated">Number Defeated:</div>
+                    <input type = "number" name = "bobombsNumber" class = "input-data">
+                </div>
+
+                <div id = "cheep-cheeps"><img src = "https://mario.wiki.gallery/images/thumb/6/63/CheepCheepNSMBU.png/1200px-CheepCheepNSMBU.png">
+                    <div class = "text">Cheep-Cheep</div>
+                    <div class = "text">11 Coins</div>
+                    <div class = "number-defeated">Number Defeated:</div>
+                    <input type = "number" name = "cheepCheepNumber" class = "input-data">
+                </div>
+
+                <button>Add Up</button>
+    
+            </div>
+            <div id = "coinsTotal"></div>
+
+            <footer>Contact:
+                <div>Mario@noa.nintendo.com</div>
+                <div>https://mario.nintendo.com/</div>
+                <div>48th Street (Between 5th and 6th Avenues) Via Subway B, D, F, M to 47-50 Sts.</div>
+            </footer>
+        </form>
+
+
+        <script src = "index.js"></script>
+    </body>
+</html>

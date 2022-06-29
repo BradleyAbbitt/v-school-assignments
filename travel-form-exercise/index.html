@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Form Project</title>
+
+        <link rel = "stylesheet" href = "style.css">
+
+    </head>
+    <body>
+
+        <form id = "travelForm">
+            First Name: <input name = "firstName" placeholder = "First Name" required/>
+            Last Name: <input name = "lastName" placeholder = "Last Name" required/>
+            Age: <input type = "number" name = "age" placeholder = "Age" required/>
+            Male: <input type = "radio" name = "gender" class = "gender" value = "male" required/>
+            Female: <input type = "radio" name = "gender" class = "gender" value = "female" required/>
+            
+            Travel Location: <select name = "location">
+                <option value = "Anchorage">Anchorage</option>
+                <option value = "Wasilla">Wasilla</option>
+                <option value = "Chugiak">Chugiak</option>
+            </select>
+            <p>Dietary Restrictions:</p>
+            Gluten Free <input type = "checkbox" value = "Gluten Free" name = "dietOptions" class = "diet">
+            Nut Allergy <input type = "checkbox" value = "Nut Allergy" name = "dietOptions" class = "diet">
+            Carnivore Diet <input type = "checkbox" value = "Carnivore Diet" name = "dietOptions" class = "diet">
+            <button>Submit</button>
+        </form>
+
+        <script src = "index.js"></script>
+    </body>
+</html>

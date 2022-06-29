@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    color: tan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input {
+    text-align: center;
+    margin: 12px;
+}
+
+#travelForm :nth-child(3) {
+    width: 50px;
+    margin-left: 70px;
+}
+
+.gender {
+    margin-left: 100px;
+}
+
+select {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+    color: maroon;
+    width: 340px;
+    margin-top: 40px;
+}
+
+.diet {
+    margin-left: 100px;
+}

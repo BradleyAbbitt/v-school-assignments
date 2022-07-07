@@ -1,0 +1,223 @@
+/* #layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(20, 100px);
+} */
+
+/* #layout :nth-child(1) {
+    grid-row: 1/4;
+    padding: 20px 0 70px 0;
+    background-image: url("http://www.csszengarden.com/214/gridlines.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/huntington.jpg");
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    text-align: center;
+}
+    
+
+#layout :nth-child(2) {
+    background-image: url("http://www.csszengarden.com/214/gridlines.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/huntington.jpg");
+    grid-row: 1/4;
+}
+
+#layout :nth-child(3) {
+    background-color: white;
+    grid-row: 4/10;
+}
+
+#layout :nth-child(4) {
+    background-color:  rgba(111, 131, 103, 0.23 );
+    grid-row: 4/10;
+}
+
+#layout :nth-child(5) {
+    background-color: tan;
+    grid-row: 10/14;
+}
+
+#layout :nth-child(6) {
+    background-color: aqua;
+    grid-row: 10/14;
+}
+
+#layout :nth-child(7) {
+    background-color: purple;
+    grid-row: 14/18;
+}
+
+#layout :nth-child(8) {
+    background-color: blueviolet;
+    grid-row: 14/18;
+}
+
+#layout :nth-child(9) {
+    background-color: brown;
+    grid-row: 18/20;
+    grid-column: 1/3;
+}
+
+#layout :nth-child(10) {
+    background-color: crimson;
+    grid-column:1/3;
+    grid-row: 20/21;
+} */
+
+body {
+    background-color: #325050;
+    padding:0;
+    margin: 0;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    margin-left:50px;
+    margin-top: 80px;
+}
+
+header {
+    height: 210px;
+    display: inline-block;
+    padding: 20px 0 70px 0;
+    background-image: url("http://www.csszengarden.com/214/gridlines.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/huntington.jpg");
+    background-position: 00, 00, -5px -120px, 0 50%;
+    text-align: center;
+    width: 65%;
+}
+
+h1 {
+    padding-bottom: 5px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    color: white;
+    font-weight: normal;
+}
+
+h1::before {
+    display: inline-block;
+    position: relative;
+    background: url("http://www.csszengarden.com/214/enso.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 70px;
+    content: "";
+    width: 135px;
+    height: 135px;
+    margin: -50px 20px 0 -70px;
+
+}
+
+h2 {
+    color: rgba(255,255,255,0.6);
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: normal;
+    margin: -30px 80px 0px 0px;
+}
+
+#view-designs {
+    float: right;
+    background-image: url("http://www.csszengarden.com/214/gridlines.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/huntington.jpg");
+    background-position: -5px -60px, 80px 50%;
+    height: 210px;
+    width: 35%;
+    padding: 20px 0 70px 0;
+    text-align: center;
+}
+
+button {
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 15%);
+    border: none;
+    font-size: 1.6em;
+    font-family: 'Julius Sans One', sans-serif;
+    color:rgba(255, 255, 255, 60%);
+}
+
+#view {
+    padding: 20px 60px 20px 60px;
+    transition: background-color 500ms, color 500ms;
+}
+#view:hover {
+    background-color: rgba(255, 255, 255, 40%);
+    color: rgba(255, 255, 255, 90%)
+}
+
+#arrow {
+    font-family: 'Patua One', cursive;
+    padding: 18px 20px 19px 20px;
+    transition: background-color 500ms, color 500ms;
+}
+#arrow:hover {
+    background-color: rgba(255, 255, 255, 40%);
+    color: rgba(255, 255, 255, 90%)
+}
+
+#paragraph1 {
+    height: 900px;
+    background-color: white;
+    width: 65%;
+    margin-top: -20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    line-height: 35px;
+}
+
+#paragraph1 :nth-child(1) {
+    padding: 80px 70px 0px 150px;
+}
+
+#paragraph1 :nth-child(2) {
+    padding: 0px 70px 80px 150px;
+    margin-top: -85px;
+}
+
+#html-file {
+    display: inline-block;
+    margin-left: -145px;
+    margin-right: -65px;
+}
+
+/* #html-file a {
+    text-decoration: none;
+    color: green;
+    transition: background-color 500ms, color 500ms;
+    padding: 3px;
+}
+
+#html-file a:hover {
+    background-color: blue;
+    color: red; */
+/* } */
+
+#css-file {
+    display: inline-block;
+    margin-left: -145px;
+}
+
+/* #css-file a {
+    text-decoration: none;
+    color: green;
+    background-position: left;
+    transition: background-color 500ms, color 500ms;
+
+}
+
+#css-file a:hover {
+    background-color: orange;
+    color:gold;
+    background-position: left;
+} */
+
+
+a {
+    color: #0d8ba1;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+  }
+
+  a:hover, a:focus {
+    color: #0599c2;
+    text-decoration: underline;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Axios To-Do</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <h1>To-Do: </h1>
+
+        <div id = "to-do-list"></div>
+
+        <form name = "newTodo" id = "new-todo">
+            Add New: <input class = "newInput" name = "newTodoName" placeholder = "Name" required/>
+            
+            <input class = "newInput" name = "price" placeholder = "Price" required/>
+            <input class = "newInput" name = "description" placeholder = "Description" required/>
+            <input class = "newInput" name = "imageUrl" placeholder = "Image URL (Optional)"/>
+            
+            <div><button id = "addNew">Add</button></div>
+
+
+
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+        <script src = "app.js"></script>
+    </body>
+</html>

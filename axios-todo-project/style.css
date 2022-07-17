@@ -1,0 +1,71 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    border-bottom: solid black 4px;
+    text-align: center;
+    margin: 30px 80px 20px 80px;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 120px;
+    width: 150px;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 30px;
+}
+
+body {
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+}
+
+#new-todo {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(236, 145, 48);
+}
+
+.newInput {
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    width: 200px;
+    background-color: rgb(195, 193, 41);
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+#addNew {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: rgb(236, 145, 48);
+    background-color: rgba(168, 186, 50, 0.464);
+    width: 90px;
+    border: 2px solid red;
+    margin: 20px 0px 0px 133px;
+}
+
+#completed {
+    margin-left: 100px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    color: rgb(236, 145, 48);
+    background-color: rgba(168, 186, 50, 0.464);
+    width: 120px;
+    border: 2px solid red;
+}
+
+#delete-todo {
+    margin-left: 25px;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(236, 145, 48);
+    background-color: rgba(168, 186, 50, 0.464);
+    width: 30px;
+    border: 2px solid red;
+    text-align: center;
+}
